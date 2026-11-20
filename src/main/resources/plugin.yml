@@ -1,0 +1,13 @@
+name: Permalluvia
+version: 1.0
+main: com.permalluvia.Permalluvia
+api-version: '1.20'
+description: Lluvia por ciclos, crafteos y tótems custom
+commands:
+  permalluvia:
+    description: Comandos de Permalluvia
+    usage: /<command> dar <item> [cantidad] [jugador]
+permissions:
+  permalluvia.admin:
+    description: Permite usar /permalluvia
+    default: op
